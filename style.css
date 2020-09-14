@@ -1,5 +1,65 @@
-h1,
-h2 {
-  font-size: 20px;
-  color: red;
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  line-height: 1.6;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+header {
+  background: red;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 50px;
+  z-index: 100;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav a {
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  line-height: 38px;
+  border: 1px solid #fff;
+  color: #fff;
+  margin-left: 20px;
+  transition: background-color 0.3s;
+}
+
+.logo img {
+  width: 130px;
+}
+
+.nav a:hover {
+  background: #fff;
+  color: #333;
+}
+
+/* .slide */
+.slide {
+  height: 100vh;
+  
 }
