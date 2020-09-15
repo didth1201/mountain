@@ -20,7 +20,6 @@ table {
 }
 
 /*테이블1*/
-
 .tdl-01 td,
 .tdl-01 th {
   border: 1px solid #ccc;
@@ -56,4 +55,57 @@ table {
 .tdl-03 tr:nth-child(1) th {
   background: #666;
   color: #fff;
+}
+
+/*테이블4*/
+.tdl-04 {
+  border-top: 1px solid #666;
+}
+.tdl-04 td,
+.tdl-04 th {
+  border-bottom: 1px solid #ccc;
+  padding: 8px;
+}
+
+.tdl-04 th {
+  background: #efefef;
+}
+
+/*테이블5*/
+.tdl-05 td,
+.tdl-05 th {
+  border: 1px solid #ccc;
+  border-left: none;
+  padding: 8px;
+}
+
+.tdl-05 td:last-child,
+.tdl-05 th:last-child {
+  border-right: none;
+}
+
+.tdl-05 th {
+  background: #efefef;
+}
+
+/*테이블1*/
+.tdl-06 td,
+.tdl-06 th {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+.tdl-06 th {
+  background: #efefef;
+}
+
+/*테이블7*/
+.tdl-07 td,
+.tdl-07 th {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+.tdl-07 th {
+  background: #efefef;
 }
